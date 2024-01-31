@@ -19,4 +19,9 @@ export default {
     </figure>
 </template>
 
-<style></style>
+<style>
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>

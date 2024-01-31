@@ -14,8 +14,16 @@ export default {
 </script>
 
 <template>
-  <AppTitle />
-  <AppHero />
+  <div class="container">
+    <AppTitle />
+    <AppHero />
+  </div>
 </template>
 
-<style></style>
+<style>
+.container {
+  max-width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+</style>
